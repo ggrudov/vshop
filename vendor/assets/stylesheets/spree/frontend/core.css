@@ -1,0 +1,53 @@
+.header_phone {
+	position: absolute;
+	top: 0;
+	right:220px;
+	font-size:14px;
+	font-weight: bold;
+	color:white;
+	padding-bottom: 10px;
+	font-family: "Helvetica Neue;", Helvetica, Arial, sans-serif;
+	line-height: 1.42857143;
+}
+
+ul#producs li .product-image{
+	border-color:black;
+}
+
+.panel-default {
+	border-color: black;
+}
+/*footer*/
+ footer.footer {
+ 	background-color:black;
+ 	color:white;
+ }
+
+ div.footer-bottom {
+ 	background-color: black;
+ 	color:white;
+ }
+/*header*/
+ #spree-header #header {
+	background: black;
+}
+
+div#spree-header {
+	background-color: white;
+	background: black;
+}
+
+/*button - search header*/
+.btn-success {
+    color: white;
+    background-color: white;
+    border-color: white;
+  }
+
+  .btn {
+  	color: black;
+    
+
+
+
+
