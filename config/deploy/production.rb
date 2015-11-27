@@ -15,7 +15,7 @@
 # server list. The second argument is a, or duck-types, Hash and is
 # used to set extended properties on the server.
 set deploy_user: 'deployer'
-set stage: :production
+set :stage, :production
 server 'web2.tech', user: 'deployer', roles: %w{web app db}, primary: true
 set :full_app_name, "#{fetch(:application)}_#{fetch(:stage)}"
 set :nginx_server_name, "test.web2.tech"
