@@ -3,7 +3,7 @@ namespace :unicorn do
     desc "NEW: #{command} unicorn"
     Rake::Task[command.to_sym].clear_actions
     task command.to_sym do
-      on rules :app do
+      on roles :app do
         sudo :service, fetch(:unicorn_service), command
         puts "COMPLETE !!!"
       end
