@@ -30,10 +30,10 @@ gem 'unicorn'
 # Use Capistrano for deployment
 # gem 'capistrano-rails',
 group :development do
-  gem 'capistrano', '~>3.2.1'
-  gem 'capistrano-rails'
-  gem 'capistrano-rbenv'
-  gem 'capistrano-bundler'
+  gem 'capistrano', '~>3.4.0'
+  gem 'capistrano-rails', '1.1.3'
+  gem 'capistrano-rbenv', '~> 2.0'
+  gem 'capistrano-bundler', '1.1.4'
   gem 'capistrano-unicorn-nginx', '~>3.2.0'
 end
 
